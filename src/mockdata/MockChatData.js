@@ -1,0 +1,140 @@
+export const mockChatData = {
+  chatId: "chat_12345",
+  isGroupChat: false,
+  participants: {
+    sender: {
+      userId: "user-1",
+      username: "John",
+    },
+    receiver: {
+      userId: "user-2",
+      profilePic: "https://picsum.photos/800",
+      name: "William Green",
+      isOnline: true,
+    },
+  },
+  messages: [
+    {
+      messageId: "msg-1",
+      senderId: "user-1",
+      content:
+        "Hi Alice! How are you doing?Hi Alice! How are you doing?Hi Alice! How are you doing?Hi Alice! How are you doing?Hi Alice! How are you doing?Hi Alice! How are you doing?",
+      timestamp: "2023-07-17T12:30:00Z",
+    },
+    {
+      messageId: "msg-2",
+      senderId: "user-2",
+      content: "Hey John! I'm doing well, thanks. How about you?",
+      timestamp: "2023-07-17T12:32:00Z",
+    },
+    {
+      messageId: "msg-3",
+      senderId: "user-1",
+      content: "I'm good too, thanks for asking!",
+      timestamp: "2023-07-17T12:34:00Z",
+    },
+    {
+      messageId: "msg-4",
+      senderId: "user-2",
+      content: "That's great to hear!",
+      timestamp: "2023-07-17T12:35:00Z",
+    },
+    {
+      messageId: "msg-52",
+      senderId: "user-1",
+      content: "By the way, did you see the new movie trailer?",
+      timestamp: "2023-07-17T12:36:00Z",
+    },
+    {
+      messageId: "msg-23",
+      senderId: "user-2",
+      content: "Hey John! I'm doing well, thanks. How about you?",
+      timestamp: "2023-07-17T12:32:00Z",
+    },
+    {
+      messageId: "msg-33",
+      senderId: "user-1",
+      content: "I'm good too, thanks for asking!",
+      timestamp: "2023-07-17T12:34:00Z",
+    },
+    {
+      messageId: "msg-43",
+      senderId: "user-2",
+      content: "That's great to hear!",
+      timestamp: "2023-07-17T12:35:00Z",
+    },
+    {
+      messageId: "msg-53",
+      senderId: "user-1",
+      content: "By the way, did you see the new movie trailer?",
+      timestamp: "2023-07-17T12:36:00Z",
+    },
+    ,
+    {
+      messageId: "msg-10",
+      senderId: "user-2",
+      content: "Looking forward to it!",
+      timestamp: "2023-07-17T12:50:00Z",
+    },
+    {
+      messageId: "msg-11",
+      senderId: "user-1",
+      content: "I just booked the tickets for the movie!",
+      timestamp: "2023-07-17T14:20:00Z",
+    },
+    {
+      messageId: "msg-12",
+      senderId: "user-2",
+      content: "Awesome! Which cinema did you choose?",
+      timestamp: "2023-07-17T14:22:00Z",
+    },
+    {
+      messageId: "msg-13",
+      senderId: "user-1",
+      content: "I booked it at the AMC cinema near our place.",
+      timestamp: "2023-07-17T14:25:00Z",
+    },
+    {
+      messageId: "msg-14",
+      senderId: "user-2",
+      content: "That's convenient. What time is the show?",
+      timestamp: "2023-07-17T14:28:00Z",
+    },
+    {
+      messageId: "msg-15",
+      senderId: "user-1",
+      content: "The show is at 7:00 PM.",
+      timestamp: "2023-07-17T14:30:00Z",
+    },
+    {
+      messageId: "msg-16",
+      senderId: "user-2",
+      content: "Perfect! I'll meet you there.",
+      timestamp: "2023-07-17T14:32:00Z",
+    },
+    {
+      messageId: "msg-17",
+      senderId: "user-1",
+      content: "See you at the cinema!",
+      timestamp: "2023-07-17T14:35:00Z",
+    },
+    {
+      messageId: "msg-18",
+      senderId: "user-2",
+      content: "Sure! See you soon.",
+      timestamp: "2023-07-17T14:36:00Z",
+    },
+    {
+      messageId: "msg-19",
+      senderId: "user-1",
+      content: "Hey Alice, I'm on my way to the cinema.",
+      timestamp: "2023-07-17T18:45:00Z",
+    },
+    {
+      messageId: "msg-20",
+      senderId: "user-2",
+      content: "Hi John, I'm already here. Hurry up!",
+      timestamp: "2023-07-17T18:50:00Z",
+    },
+  ],
+};

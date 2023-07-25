@@ -1,0 +1,69 @@
+@import "../../styles/color.scss";
+
+.chatbox {
+  // padding-top: 7%;
+  height: 100%;
+  // profile bar
+  .active-chat-profile-bar {
+    height: 55px;
+    position: fixed;
+    background-color: white;
+  }
+  // message box
+  .message-box-wrapper {
+    // message list
+    padding-top: 60px;
+    padding-bottom: 100px;
+    height: 100%;
+    background-color: whitesmoke;
+    .messages-list {
+      line-height: 1.4;
+      height: inherit;
+      .msg-content {
+        width: fit-content;
+        font-size: smaller;
+        position: relative;
+        &.senders-message {
+          background-color: $message-self-bg-color !important;
+          color: $message-self-text-color !important;
+          border-radius: 0.5rem 0 0 0.5rem;
+          &::after {
+            background-color: $message-self-bg-color !important;
+            content: " ";
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            right: -5px;
+            bottom: 3px;
+            transform: rotate(45deg);
+          }
+        }
+        &.recievers-message {
+          background-color: $message-bg-color;
+          color: $message-text-color;
+          border-radius: 0 0.5rem 0.5rem 0;
+          &::before {
+            background-color: $message-bg-color !important;
+            content: " ";
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: -5px;
+            bottom: 3px;
+            transform: rotate(45deg);
+          }
+        }
+      }
+      .msg-time {
+        font-size: smaller;
+      }
+    }
+    // message input box
+    .message-input-box {
+      position: absolute;
+      bottom: 0;
+      height: 100px;
+      width: 100%;
+    }
+  }
+}

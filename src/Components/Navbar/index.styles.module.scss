@@ -1,0 +1,14 @@
+.navbar {
+  box-shadow: 0 4px 6px -6px #222;
+  z-index: 500;
+  color: black;
+  background-color: white;
+  transition: 1s;
+  .navbar-brand {
+  }
+  ul {
+    li {
+      margin: 0 5px;
+    }
+  }
+}

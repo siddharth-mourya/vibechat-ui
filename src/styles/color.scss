@@ -1,0 +1,49 @@
+// Primary Colors
+$primary-color: #007bff; // Blue - Used for buttons, links, and active states
+$primary-hover-color: #0056b3; // Darker shade of primary color for hover effects
+
+// Secondary Colors
+$secondary-color: #6c757d; // Gray - Used for secondary elements like labels and borders
+
+// Background Colors
+$body-bg-color: #f8f9fa; // Light gray - Used as the background color for the whole app
+$chat-bg-color: #ffffff; // White - Background color for chat messages and chat area
+
+// Text Colors
+$text-color: #333333; // Dark gray - Main text color
+$text-muted-color: #6c757d; // Light gray - Used for secondary text and placeholders
+
+// Button Colors
+$button-bg-color: $primary-color; // Blue - Background color for buttons
+$button-text-color: #ffffff; // White - Text color for buttons
+
+// Input Colors
+$input-bg-color: #ffffff; // White - Background color for input fields
+$input-text-color: #333333; // Dark gray - Text color for input fields
+
+// Border Colors
+$border-color: #dcdcdc; // Light gray - Color for borders and separators
+
+// Chat Message Colors
+$message-bg-color: #cfcfcf; // Light gray - Background color for chat messages
+$message-text-color: #000000; // Dark gray - Text color for chat messages
+$message-self-bg-color: #558dc9; // Blue - Background color for user's own chat messages
+$message-self-text-color: #ffffff; // White - Text color for user's own chat messages
+
+// User Avatar Colors
+$avatar-bg-color: #f0f0f0; // Very light gray - Background color for user avatars
+$avatar-text-color: #333333; // Dark gray - Text color for user avatars (initials)
+
+// Online Indicator Colors
+$online-color: #28a745; // Green - Color for indicating online users
+$offline-color: #dc3545; // Red - Color for indicating offline users
+
+// Notification Colors
+$notification-bg-color: #ffffcc; // Light yellow - Background color for notifications
+$notification-text-color: #333333; // Dark gray - Text color for notifications
+
+// Error Colors
+$error-color: #ff0000; // Red - Color for displaying error messages
+
+// Success Colors
+$success-color: #28a745; // Green - Color for displaying success messages

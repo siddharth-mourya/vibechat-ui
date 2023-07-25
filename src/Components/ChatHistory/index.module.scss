@@ -1,0 +1,10 @@
+@import "../../styles/color.scss";
+
+.last-chat {
+  font-size: small;
+  &:hover {
+    background-color: $border-color;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+}

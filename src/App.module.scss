@@ -1,0 +1,17 @@
+// width
+.navbar,
+.app,
+.content {
+  width: 100vw;
+}
+
+// height
+.app {
+  height: 100vh;
+}
+.navbar {
+  height: 60px;
+}
+.content {
+  height: calc(100vh - 60px);
+}
