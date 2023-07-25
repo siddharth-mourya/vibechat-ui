@@ -3,7 +3,7 @@ import styles from "./index.styles.module.scss";
 import ProfilePhoto from "../ProfilePhoto";
 
 const Navbar = () => {
-  const defaultProfilePicPath = "src/assets/profilePic/default-profile-pic.png";
+  const defaultProfilePicPath = `${process.env.PUBLIC_URL}/assets/profilePic/default-profile-pic.png`;
   return (
     <>
       <nav
